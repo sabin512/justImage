@@ -10,6 +10,7 @@
     <property name="default_height">480</property>
     <property name="destroy_with_parent">True</property>
     <signal name="button-press-event" handler="onButtonPressed" swapped="no"/>
+    <signal name="check-resize" handler="onCheckResize" swapped="no"/>
     <signal name="delete-event" handler="onDeleteWindow" swapped="no"/>
     <signal name="key-press-event" handler="onKeyPress" swapped="no"/>
     <child>
